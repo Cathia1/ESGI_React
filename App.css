@@ -1,0 +1,23 @@
+.Side {
+  position: fixed;
+  width: 240px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-color: rgb(29, 35, 39);
+}
+
+.Main {
+  height: 100vh;
+  margin-inline-start: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Note-link {
+  display: block;
+  padding: 16px;
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: bold;
+}
